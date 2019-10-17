@@ -5,9 +5,160 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url("../src/image/back5.jpg");
+  background: cover;
+  background-size:cover;
+    background-position:top;
+    background-repeat: no-repeat;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.personalForm{
+  border-radius: 12px;
+}
+.formAlignment{
+  text-align: -webkit-center;
+}
+.Absolute-Center {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+ 
+}
+
+.Absolute-Center.is-Responsive {
+  width: 50%; 
+  height: 50%;
+  min-width: 200px;
+  max-width: 400px;
+  padding: 40px;
+}
+.regStyle{
+  display: grid;
+  margin-top: 10%;
+}
+.create-btn-link{
+  color: red;
+}
+.dropdown{
+  width: -webkit-fill-available;
+}
+.help-block{
+  font-size: small;
+  color: red;
+}
+.radioButtonStyle{
+  display: flex;
+}
+.dashboardHeaderStyle{
+  height: 180px;
+  border-radius: 12px;
+  /* background-image: linear-gradient(141deg, #e5f3ed 0%, #3ec1d0 51%, #bae3f3 75%); */
+  /* background-image: linear-gradient(141deg, #aab3afa3 0%, #92a5a7b8 51%, #afb9abfa 75%); */
+
+  background-image: linear-gradient(141deg, #f8f9e0 0%, #ffc76270 51%, #f1f5bcfa 75%);
+}
+.rightStyle{
+  height: 500px;
+  /* background-image: linear-gradient(141deg, #c9f5e2 0%, #bca7c1 51%, #bae3f3 75%); */
+  /* background-image: linear-gradient(141deg, #ffffffad 0%, #0000008f 51%, #abb2b5a1 75%);
+  border-radius: 20px; */
+  margin-top: 30px;
+  background-image: linear-gradient(141deg, #f8f9e0 0%, #ffc76270 51%, #f1f5bcfa 75%);
+}
+.leftStyle{
+  height: 500px;
+  /* background-image: linear-gradient(141deg, #c9f5e2 0%, #bca7c1 51%, #bae3f3 75%); */
+  /* background-image: linear-gradient(141deg, #ffffffad 0%, #0000008f 51%, #abb2b5a1 75%);
+  border-radius: 20px; */
+  margin-top: 30px;
+  background-image: linear-gradient(141deg, #f8f9e0 0%, #ffc76270 51%, #f1f5bcfa 75%);
+}
+.middleStyle{
+  margin-top: 30px;
+}
+.container{
+  max-width: 1500px;
+}
+.dashMenuRight{
+  float: right;
+}
+.formStyle{
+  /* background-image: linear-gradient(141deg, #e5f3ed 0%, #3ec1d0 51%, #bae3f3 75%); */
+  background-image: linear-gradient(141deg, #e5f3edbf 0%, #ffffff85 51%, #ffffff9e 75%);
+}
+.welcomeName{
+  width: 20%;
+  margin-top: 150px;
+  font-size: medium;
+  color: blue;
+}
+.headerTitle{
+  color: white;
+    font-size: 51px;
+    font-family: serif;
+}
+.test{
+  border:solid;
+}
+/* .modal-content{
+  height: 460px;
+} */
+.createRolePopupStyle{
+  width: 60%;
+  height: 60%;
+  min-width: 500px;
+  max-width: 700px;
+  padding: 30px;
+}
+.inputCreateRole{
+  margin-bottom: 41px;
+}
+.menuStyle{
+  width: 219px;
+}
+.logoutStyle{
+  float: right;
+
+}
+.Usertable{
+  width: 100%;
+  background-color: #ffffffbf;
+  font-size: 20px;
+  font-family: serif;
+
+
+}
+.buttonStyleDashboard{
+  color: #f00;
+  background-color: transparent;
+  border-color: transparent;
+}
+.classSelect{
+  color: #fd3030;
+  background-color: #54c7d424;
+}
+.tableBody{
+/* 
+  height: 300px;
+  overflow:scroll; */
+}
+.dashboardContainer{
+
+    margin-top: 28px;
+    border-radius: 10px;
+    /* border-color: #567527; */
+  
+}
+.fa-style{
+  color: #3500ff;
+}
+.marqueeStyle{    height: inherit;
+  color: red;}
+.form-scroll{
+  overflow: scroll;
+  height: 500px;
 }
